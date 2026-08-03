@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+coverage.json
+htmlcov/
+
+# --- Observation-window stream (runtime data, not source) ---
+logs/
+*.jsonl
+!tests/fixtures/**/*.jsonl
+
+# --- Dry-run fixtures / local scratch ---
+_dryrun_fixture/
+rename-audit-dryrun.json
+
+# --- Node / Tauri ---
+node_modules/
+src-tauri/target/
+
+# --- OS / editor ---
+Thumbs.db
+.DS_Store
+*.log
