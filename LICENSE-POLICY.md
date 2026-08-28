@@ -170,3 +170,33 @@ should be directed to the contact listed in COMMERCIAL-LICENSE.md.
 
 
 Last updated: 2026-08-28
+
+## Upstream Licenses Preempt OIE-PCS-1.0 for Derived Portions
+
+Where a release of this Software incorporates source code derived
+from an upstream project under a permissive open-source license
+(MIT, Apache-2.0, BSD-2/3-Clause, ISC, etc.), the upstream license
+controls for the derived portions. See LICENSE §24 and the NOTICE
+file at the root of this repository for the per-module attribution
+list and pinned upstream commit SHAs.
+
+Concretely:
+
+- The `oiagent_coworker/` modules listed in NOTICE section C as
+  derived from OpenWorker (https://github.com/andrewyng/openworker)
+  are bound by the MIT License as preserved in LICENSE-OPENWORKER.
+  Users may rely on MIT alone for those modules; the OIE-PCS-1.0
+  grant does NOT retroactively tighten the upstream MIT grant.
+- The Project Copyright Holder's own additions (renames, additional
+  modules, packaging, build glue, integration glue, Tauri shell)
+  remain under OIE-PCS-1.0.
+- This policy applies to all current and past releases. A future
+  release may NOT remove or weaken the upstream license on the
+  derived portions; doing so would violate the upstream license's
+  terms and is therefore outside the Project Copyright Holder's
+  authority.
+
+This section does not modify LICENSE §8 (Future Relicensing); it
+clarifies that Future Relicensing applies only to the
+OIagent-contributed portion, never to the upstream-derived portion.
+
