@@ -549,3 +549,48 @@ governing law, dispute resolution, commercial license defaults
 (term / devices / upgrades / pricing / payment / taxes / support),
 breach and remedies, notices, personal data and privacy, and
 miscellaneous.
+
+24. Upstream Attribution and Conflicting Provisions
+
+This Software contains portions that were derived from third-party
+upstream projects and are licensed under their own upstream licenses.
+The full upstream attribution and license preservation list is in
+the NOTICE file at the root of this repository; the relevant upstream
+license texts are reproduced verbatim in LICENSE-<UPSTREAM> files
+(e.g. LICENSE-OPENWORKER for the openworker-derived modules).
+
+For any portion of the Software listed in NOTICE section C as
+"Derived From" a third-party upstream project:
+
+  (a) The upstream license (as preserved in the corresponding
+      LICENSE-<UPSTREAM> file) is the controlling license for that
+      portion. This OIE-PCS-1.0 grant does NOT retroactively
+      relicense, restrict, or supersede the rights granted by the
+      upstream license.
+
+  (b) Where the upstream license is a permissive open-source license
+      (e.g. MIT, Apache-2.0, BSD), users of that portion may rely on
+      the upstream license alone, and the upstream license terms
+      prevail in case of conflict.
+
+  (c) The Project Copyright Holder's contribution to this fork
+      (modifications, re-organisation, naming, additional modules
+      not derived from upstream) remains under OIE-PCS-1.0.
+
+  (d) The Project Copyright Holder is the sole maintainer of this
+      fork and is NOT affiliated with, endorsed by, or sponsored by
+      any upstream project or its contributors, except as required by
+      the upstream license's attribution clause.
+
+The list of upstream projects, their license versions, the pinned
+upstream commit SHA at fork time, and the per-file SPDX headers are
+all in NOTICE. The Project Copyright Holder may, at its sole
+discretion, drop or supersede the OIE-PCS-1.0 grant on the
+OIagent-contributed portion of this fork at any future release, but
+the upstream license on the upstream-derived portion remains
+binding and may not be unilaterally revoked.
+
+This section is the authoritative conflict-resolution clause between
+OIE-PCS-1.0 and any upstream LICENSE-<UPSTREAM> for the purposes of
+this repository.
+
