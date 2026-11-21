@@ -1,596 +1,201 @@
-OI Enhancements Personal and Commercial Source License
-Version 1.0 (OIE-PCS-1.0)
-
-SPDX-License-Identifier: LicenseRef-OI-Enhancements-PCS-1.0
-
-Copyright (c) 2026 63894696 (GitHub)
-All rights reserved.
-
-
-1. Definitions
-
-"Software" means the source code, object code, build scripts, configuration
-files, and documentation of the OI Enhancements project distributed under
-this License, excluding any third-party components identified in
-THIRD-PARTY-NOTICES.
-
-"Core Components" means the files and directories explicitly listed in
-CORE-COMPONENTS.md at the root of this repository. These are the files
-whose modifications, when distributed or served, must be made available
-under the terms of this License.
-
-"Personal Non-Commercial Use" means use by a natural person for personal,
-educational, research, entertainment, or other non-revenue-generating
-purposes. Use by employees of a for-profit organization, even on personal
-devices, is NOT Personal Non-Commercial Use.
-
-"Commercial Use" means any use by a company, organization, contractor,
-service provider, or any use connected with revenue, paid services,
-advertising, subscriptions, support contracts, internal business
-operations, customer delivery, paid cloud services, or commercial
-products. Internal deployment within a for-profit organization for any
-business purpose is Commercial Use regardless of whether a fee is
-charged to the end user.
-
-"You" means the individual or entity exercising rights under this License.
-
-"Modify" means any copy, adaptation, derivative work, translation,
-port, patch, or any other change to the Software, in whole or in part.
-
-"Distribute" means any conveyance of copies of the Software, modified or
-unmodified, to a third party by any means, including but not limited to
-physical media, network download, software marketplace, app store,
-container image, firmware bundle, or installation package.
-
-"Network Service" means providing functionality to third parties as a
-service over a network, whether via API, web UI, remote desktop, CLI,
-or any other interface, regardless of whether the third party pays.
-
-"Brand" means the project name "oi_enhancements", the product names
-"Prisir AI", "Prisir(湃睿思) AI", "oiagent", "prisraiclass", the
-associated logos, icons, marks, domain names, and any other distinctive
-signs of origin.
-
-"Future License" means any additional or different license that the
-Project Copyright Holder may, at its sole discretion and subject to
-applicable law and the rights of third parties, make the Software
-available under in the future.
-
-
-2. Personal License Grant
-
-Subject to the terms of this License, the Project Copyright Holder
-grants each individual user a royalty-free, non-exclusive,
-non-transferable license to:
-
-  (a) use, reproduce, and run the Software for Personal Non-Commercial
-      Use;
-  (b) Modify the Software for Personal Non-Commercial Use;
-  (c) compile and build the Software for Personal Non-Commercial Use;
-  (d) Distribute the original, unmodified Software to other individuals
-      for Personal Non-Commercial Use, provided that this License,
-      the copyright notice, and any accompanying LICENSE-POLICY.md or
-      NOTICE files are preserved.
-
-You may not Distribute any modified version of the Software to any
-third party under this Section 2. Any such Distribution must instead
-comply with Section 3 (Source Availability for Core Components) and,
-if applicable, Section 4 (Commercial Use).
-
-
-3. Source Availability for Core Components
-
-If You Distribute, or make available as a Network Service, a version
-of the Software that contains modifications to any file or directory
-listed in CORE-COMPONENTS.md, then You must:
-
-  (a) make the corresponding source code of those modified Core
-      Components available under this License (OIE-PCS-1.0) to all
-      recipients of the Distributed Software or to all users of the
-      Network Service;
-  (b) clearly identify which Core Components have been modified and
-      the nature of those modifications;
-  (c) provide reasonable instructions for obtaining the corresponding
-      source code; and
-  (d) retain this License, the copyright notice, and the LICENSE-POLICY.md
-      in any redistribution.
-
-Modifications to files and directories NOT listed in CORE-COMPONENTS.md
-are not subject to the source-availability obligations of this Section
-when Distributed without Commercial Use, but remain subject to
-Section 4 when Distributed as part of Commercial Use.
-
-Private internal modification of Core Components that is never
-Distributed and never made available as a Network Service is not
-subject to the source-availability obligation of this Section.
-
-
-4. Commercial Use
-
-Commercial Use is NOT permitted under this License. To engage in any
-Commercial Use, You must obtain a separate written commercial license
-from the Project Copyright Holder.
-
-A commercial license may, at the Project Copyright Holder's discretion,
-grant rights including closed-source integration, internal deployment,
-commercial distribution, commercial Network Services, technical
-support, redistribution with modifications, and other uses.
-
-Unless expressly waived in writing by the Project Copyright Holder,
-the source-availability obligations of Section 3 for modified Core
-Components remain in full force for any commercial licensee.
-
-Pricing, scope, term, device count, and renewal terms of commercial
-licenses are described in COMMERCIAL-LICENSE.md at the root of this
-repository. Contact information for commercial licensing inquiries is
-provided in that file.
-
-
-5. Trademarks and Branding
-
-This License does NOT grant You any right to use any Brand of the
-OI Enhancements project, including the names "oi_enhancements",
-"Prisir AI", "Prisir(湃睿思) AI", "oiagent", "prisraiclass", the
-Prisir flame logo, the prisiraiclass GTK icon, the application icons
-in the assets/ directory, or any associated marks.
-
-Use of any Brand requires a separate written permission or a
-separate commercial trademark license from the Project Copyright
-Holder.
-
-You MAY, however, make truthful factual references to the project
-(including the unmodified name) in academic papers, reviews, tutorials,
-and bug reports, provided such reference does not suggest endorsement,
-sponsorship, or affiliation.
-
-
-6. Third-Party Components
-
-The Software may include or interoperate with third-party libraries,
-models, APIs, fonts, icons, drivers, and other materials identified in
-THIRD-PARTY-NOTICES. Such third-party components are NOT relicensed
-by this License and remain governed by their respective licenses and
-terms. You are responsible for complying with the terms of each
-third-party component You use.
-
-
-7. No Patent Grant
-
-Except as expressly stated in a separate written agreement, this
-License does NOT grant any patent license, express or implied. Any
-patent claims that would be infringed by the Software are licensed
-only for Personal Non-Commercial Use under Section 2 and only as
-permitted in a commercial license under Section 4.
-
-If You initiate patent litigation (including cross-claims and
-counterclaims) against the Project Copyright Holder or any contributor
-alleging that the Software infringes a patent, any rights granted to
-You under this License terminate as of the date such litigation is
-filed.
-
-
-8. Future Relicensing
-
-Subject to applicable copyright law and the rights of all copyright
-holders and third-party licensors, the Project Copyright Holder
-reserves the right, at its sole discretion, to make this Software,
-or any specific release of this Software, available under additional
-or different license terms in the future, including but not limited
-to the Apache License 2.0.
-
-Any Future License granted for a specific release is ADDITIONAL to
-the rights granted under this License. Users of that specific release
-may, at their option, choose to rely on either this License or the
-Future License for that release only.
-
-The grant of any Future License does NOT revoke, reduce, or invalidate
-any rights previously granted under this License or any other Future
-License.
-
-Detailed policy on when and how Future Licenses may be applied is
-described in LICENSE-POLICY.md.
-
-
-9. No Warranty
-
-THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY
-OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
-NON-INFRINGEMENT, AND TITLE. THE ENTIRE RISK AS TO THE QUALITY AND
-PERFORMANCE OF THE SOFTWARE IS WITH YOU.
-
-THE PROJECT COPYRIGHT HOLDER AND CONTRIBUTORS SHALL NOT BE LIABLE FOR
-ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF
-CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE,
-INCLUDING BUT NOT LIMITED TO LOSS OF DATA, SYSTEM DAMAGE, SECURITY
-INCIDENTS, UNAUTHORIZED ACTIONS, OR SERVICE INTERRUPTION.
-
-
-10. Termination
-
-Your rights under this License terminate automatically upon any
-material breach of any of its terms. Rights may be reinstated at the
-Project Copyright Holder's sole discretion if the breach is cured
-within thirty (30) days after You receive written notice of the
-breach from the Project Copyright Holder.
-
-Termination does not affect the rights of any recipient who has
-already received the Software from You under this License, provided
-that recipient is not themselves in breach.
-
-
-11. Reservation of Rights
-
-All rights not expressly granted under this License are reserved by
-the Project Copyright Holder.
-
-
-12. Entire Agreement
-
-This License, together with CORE-COMPONENTS.md, LICENSE-POLICY.md,
-TRADEMARKS.md, COMMERCIAL-LICENSE.md, and THIRD-PARTY-NOTICES,
-constitutes the entire agreement between You and the Project
-Copyright Holder with respect to the Software and supersedes all
-prior or contemporaneous understandings on the subject.
-
-
-13. Severability
-
-If any provision of this License is held to be unenforceable, the
-remaining provisions shall continue in full force and effect, and the
-unenforceable provision shall be modified only to the minimum extent
-necessary to make it enforceable.
-
-
-14. No Waiver
-
-Failure by the Project Copyright Holder to enforce any provision of
-this License shall not constitute a waiver of future enforcement
-rights for that or any other provision.
-
-
-15. Governing Law
-
-This License, and any non-contractual obligations arising out of or
-in connection with it, shall be governed by and construed in
-accordance with the laws of the Hong Kong Special Administrative
-Region of the People's Republic of China ("Hong Kong"), without
-regard to its conflict-of-laws principles. The United Nations
-Convention on Contracts for the International Sale of Goods (CISG)
-is hereby expressly disclaimed and shall not apply.
-
-
-16. Dispute Resolution
-
-Any dispute, controversy, or claim arising out of, relating to, or
-in connection with this License, including any question regarding
-its existence, validity, interpretation, performance, breach, or
-termination (a "Dispute"), shall be referred to and finally
-resolved by arbitration administered by the **Hong Kong
-International Arbitration Centre (HKIAC)** in accordance with the
-HKIAC Administered Arbitration Rules in force at the time of filing
-(the "Rules"), which Rules are deemed to be incorporated by
-reference into this Section 16.
-
-  (a) **Seat (legal place) of arbitration**: Hong Kong.
-  (b) **Venue (physical hearing)**: Hong Kong, unless the parties
-      agree otherwise or the tribunal orders otherwise.
-  (c) **Number of arbitrators**: one (1), unless the amount in
-      dispute exceeds USD 1,000,000 in which case three (3).
-  (d) **Language of arbitration**: English, with the right of any
-      party to submit Chinese-language documentary evidence without
-      translation, at the tribunal's discretion.
-  (e) **Governing procedural law**: the Hong Kong Arbitration
-      Ordinance (Cap. 609) and the Rules.
-  (f) **Confidentiality**: the arbitration shall be confidential,
-      and any award shall be confidential, except as required by
-      law or for the purpose of enforcement.
-  (g) **Interim relief**: nothing in this Section 16 prevents any
-      party from seeking interim or injunctive relief from any
-      court of competent jurisdiction to preserve the status quo or
-      prevent irreparable harm (in particular, trademark
-      infringement or unauthorized Commercial Use of the Brand),
-      pending the constitution of the tribunal.
-  (h) **Class-action waiver**: any arbitration shall be conducted
-      on an individual basis only. Disputes may not be consolidated
-      or arbitrated on a class, representative, or private
-      attorney-general basis.
-  (i) **Small-claims carve-out**: either party may bring an
-      individual action in a court of competent jurisdiction for
-      disputes within the scope of that court's small-claims or
-      equivalent summary procedure, if available.
-
-The arbitral award shall be final and binding on the parties and
-may be enforced in any court of competent jurisdiction under, among
-others, the Arrangement for Reciprocal Enforcement of Judgments in
-Civil and Commercial Matters between the Mainland and Hong Kong
-(2019), the New York Convention on the Recognition and Enforcement
-of Foreign Arbitral Awards (1958), and the Hague Convention on the
-Recognition and Enforcement of Foreign Judgments in Civil or
-Commercial Matters (2019/2023).
-
-
-17. Commercial License Terms — Term, Devices, Upgrades
-
-Where a commercial license is granted under Section 4, the
-following defaults apply unless the executed commercial agreement
-expressly states otherwise:
-
-  (a) **Term**: one (1) year from the Effective Date stated in the
-      commercial agreement, renewable for successive one-year
-      terms unless either party gives at least sixty (60) days'
-      written notice of non-renewal before the end of the current
-      term.
-
-  (b) **Devices**: the number of devices, named users, regions, or
-      other usage metric stated in the commercial agreement. Use
-      beyond the licensed metric requires an upgrade addendum and
-      pro-rated fee; continued over-deployment after written
-      notice is a material breach.
-
-  (c) **Upgrades**: during the term, the licensee is entitled to
-      patches, minor releases (e.g. v2.6 → v2.7), and security
-      updates at no additional charge. Major-version upgrades
-      (e.g. v2.x → v3.x) are NOT automatic; the licensee may
-      extend coverage to a new major version by paying an upgrade
-      fee, which the Project Copyright Holder will quote on
-      request. Use of a new major version without the upgrade
-      addendum reverts that version to OIE-PCS-1.0.
-
-  (d) **Beta / pre-release**: pre-release versions made available
-      to the licensee are provided "AS IS" and may be subject to a
-      separate pre-release agreement; they are NOT warranted.
-
-
-18. Commercial License Terms — Pricing, Payment, Taxes
-
-  (a) **Pricing model**: the indicative tiers set out in
-      COMMERCIAL-LICENSE.md form the starting point for
-      negotiation. The actual fees are stated in the executed
-      commercial agreement. The Project Copyright Holder reserves
-      the right to revise pricing for new agreements and renewals
-      on thirty (30) days' written notice; in-flight agreements
-      are unaffected.
-
-  (b) **Payment terms**: invoices are due net thirty (30) days
-      from the invoice date unless otherwise stated. Late payment
-      accrues interest at the lesser of (i) 1.5% per month
-      (compounded monthly) and (ii) the maximum rate permitted by
-      applicable law.
-
-  (c) **Taxes**: all fees are exclusive of applicable taxes,
-      duties, and levies (including VAT, GST, sales tax, and
-      withholding tax). The licensee is responsible for any taxes
-      associated with the commercial license, except for taxes on
-      the Project Copyright Holder's net income.
-
-  (d) **Refunds**: fees are non-refundable except as expressly
-      stated in the executed commercial agreement or required by
-      applicable law.
-
-
-19. Technical Support
-
-Unless the executed commercial agreement includes a support SLA,
-no technical support is provided under the commercial license.
-The following defaults apply to any support that IS provided:
-
-  (a) **Support channels**: GitHub private vulnerability reporting
-      (security issues), GitHub issue tracker (general bugs), and
-      the contact email listed in COMMERCIAL-LICENSE.md
-      (commercial-only matters).
-  (b) **Response targets**: see SECURITY.md for security-related
-      targets; commercial-SLA targets (if any) are stated in the
-      executed commercial agreement.
-  (c) **Scope**: support covers the unmodified, currently
-      supported release of the Software running on a supported
-      platform (Windows / Linux / macOS as listed in the
-      README). Customization, integration, and on-call support
-      require a separate engagement.
-  (d) **No guarantee**: support does not guarantee that any
-      particular bug will be fixed, that any particular feature
-      will be added, or that the Software is fit for any
-      particular purpose.
-
-
-20. Breach and Remedies
-
-  (a) **Notification of breach**: if either party becomes aware of
-      a material breach of this License by the other party, the
-      non-breaching party shall give written notice describing the
-      breach with reasonable specificity.
-
-  (b) **Cure period for general breach**: except as provided in
-      Section 20(c), the breaching party has thirty (30) days from
-      receipt of the written notice to cure the breach to the
-      reasonable satisfaction of the non-breaching party.
-
-  (c) **No-cure / immediate termination**: the following are
-      material breaches that are NOT subject to the cure period and
-      result in immediate termination of all rights granted under
-      this License upon written notice:
-
-      (i)  any Commercial Use of the Software without a valid
-           commercial license;
-      (ii) unauthorized use of any Brand element in commerce;
-      (iii) Distribution of modified Core Components under LICENSE
-            §3 without making the corresponding source code
-            available;
-      (iv) any breach of LICENSE §7 (No Patent Grant) initiated
-           by patent litigation against the Project Copyright
-           Holder or any contributor.
-
-  (d) **Reinstatement after cure**: if the breach is cured within
-      the cure period, the non-breaching party may, at its sole
-      discretion, reinstate the breaching party's rights under
-      this License. Reinstatement is not automatic and may be
-      conditioned on the breaching party's written acknowledgement
-      of the breach and agreement not to repeat.
-
-  (e) **Cumulative remedies**: termination of this License does
-      not waive any other remedy available to the Project
-      Copyright Holder at law or in equity, including injunctive
-      relief, damages, account of profits, statutory damages
-      (where applicable), and the recovery of reasonable legal
-      fees and costs.
-
-  (f) **Equitable relief**: the parties acknowledge that damages
-      alone may be inadequate to remedy certain breaches (in
-      particular, unauthorized Commercial Use of the Brand or
-      Distribution of modified Core Components without source
-      disclosure). The Project Copyright Holder shall be entitled
-      to seek injunctive or other equitable relief without
-      requirement of posting a bond, in addition to any other
-      remedies.
-
-
-21. Notices
-
-  (a) **Form**: notices under this License must be in writing
-      and delivered by (i) email with delivery receipt requested
-      and acknowledged, or (ii) internationally recognized courier
-      with tracking, to the addresses set out below or such other
-      address as the notifying party designates by notice.
-
-  (b) **Project Copyright Holder address**: see
-      COMMERCIAL-LICENSE.md, "Contact" section. Updates to the
-      notice address become effective seven (7) days after posting
-      in COMMERCIAL-LICENSE.md.
-
-  (c) **Licensee address**: for users without a commercial
-      agreement, the address is the email associated with the
-      user's GitHub account or, failing that, the contact channel
-      of record. For commercial licensees, the address is the
-      one stated in the executed commercial agreement.
-
-  (d) **Effective date of notice**: a notice is deemed received
-      (i) on the date of email acknowledgement, or (ii) on the
-      third business day after dispatch by courier, or (iii) when
-      posted in COMMERCIAL-LICENSE.md (for changes to the
-      Project Copyright Holder's notice address).
-
-
-22. Personal Data and Privacy
-
-This License does not by itself require the Project Copyright
-Holder to collect, store, or process personal data of Licensees.
-Where any personal data is collected (for example, in connection
-with a commercial agreement, support interaction, or community
-contribution), such collection is governed by a separate privacy
-policy or data-processing agreement, not by this License.
-
-The Software itself is designed to run locally and does NOT
-telemetry the user's usage, prompts, or data to the Project
-Copyright Holder by default. Where the Software does initiate
-outbound network calls (for example, to LLM provider APIs or to
-babelspan.com for the brand-update notifier), such calls are
-described in THIRD-PARTY-NOTICES and in the Software's settings
-panel. The user retains the right to disable outbound calls
-where feasible.
-
-
-23. Miscellaneous
-
-  (a) **Entire Agreement**: this License, together with the
-      documents incorporated by reference (CORE-COMPONENTS.md,
-      LICENSE-POLICY.md, TRADEMARKS.md, COMMERCIAL-LICENSE.md,
-      THIRD-PARTY-NOTICES, SECURITY.md, and any executed
-      commercial agreement), constitutes the entire agreement
-      between the parties with respect to the Software and
-      supersedes all prior or contemporaneous understandings on
-      the subject.
-
-  (b) **Severability**: if any provision is held to be
-      unenforceable, the remaining provisions continue in full
-      force, and the unenforceable provision shall be modified
-      only to the minimum extent necessary to make it enforceable.
-
-  (c) **No Waiver**: failure to enforce any provision is not a
-      waiver of future enforcement of that or any other
-      provision.
-
-  (d) **Assignment**: the Licensee may NOT assign or transfer
-      rights or obligations under this License without the
-      Project Copyright Holder's prior written consent. The
-      Project Copyright Holder may assign this License and any
-      rights under it to any successor in interest.
-
-  (e) **No third-party beneficiaries**: except as expressly stated
-      in LICENSE §6 (Third-Party Components) and §10 (downstream
-      recipients), this License does not confer rights on any
-      non-party.
-
-  (f) **Headings**: section headings are for convenience only
-      and do not affect interpretation.
-
-  (g) **Language**: this License is published in English. A
-      Chinese translation may be provided for reference; in case
-      of conflict, the English version prevails.
-
-  (h) **Counterparts and electronic execution**: this License may
-      be accepted electronically (for example, by clicking "I
-      agree" in an installer, or by cloning, building, or
-      Distributing the Software). Acceptance is deemed effective
-      on the date of such act.
-
-
-END OF LICENSE
-
-This License is intentionally NOT an OSI-approved Open Source License
-because it restricts Commercial Use and reserves Brand rights. It is
-a Source-Available license with commercial licensing pathways.
-
-The body of this License is 23 sections covering: definitions,
-personal license grant, source availability for Core Components,
-Commercial Use, trademarks, third-party components, no patent grant,
-future relicensing, no warranty, termination, reservation of rights,
-governing law, dispute resolution, commercial license defaults
-(term / devices / upgrades / pricing / payment / taxes / support),
-breach and remedies, notices, personal data and privacy, and
-miscellaneous.
-
-24. Upstream Attribution and Conflicting Provisions
-
-This Software contains portions that were derived from third-party
-upstream projects and are licensed under their own upstream licenses.
-The full upstream attribution and license preservation list is in
-the NOTICE file at the root of this repository; the relevant upstream
-license texts are reproduced verbatim in LICENSE-<UPSTREAM> files
-(e.g. LICENSE-OPENWORKER for the openworker-derived modules).
-
-For any portion of the Software listed in NOTICE section C as
-"Derived From" a third-party upstream project:
-
-  (a) The upstream license (as preserved in the corresponding
-      LICENSE-<UPSTREAM> file) is the controlling license for that
-      portion. This OIE-PCS-1.0 grant does NOT retroactively
-      relicense, restrict, or supersede the rights granted by the
-      upstream license.
-
-  (b) Where the upstream license is a permissive open-source license
-      (e.g. MIT, Apache-2.0, BSD), users of that portion may rely on
-      the upstream license alone, and the upstream license terms
-      prevail in case of conflict.
-
-  (c) The Project Copyright Holder's contribution to this fork
-      (modifications, re-organisation, naming, additional modules
-      not derived from upstream) remains under OIE-PCS-1.0.
-
-  (d) The Project Copyright Holder is the sole maintainer of this
-      fork and is NOT affiliated with, endorsed by, or sponsored by
-      any upstream project or its contributors, except as required by
-      the upstream license's attribution clause.
-
-The list of upstream projects, their license versions, the pinned
-upstream commit SHA at fork time, and the per-file SPDX headers are
-all in NOTICE. The Project Copyright Holder may, at its sole
-discretion, drop or supersede the OIE-PCS-1.0 grant on the
-OIagent-contributed portion of this fork at any future release, but
-the upstream license on the upstream-derived portion remains
-binding and may not be unilaterally revoked.
-
-This section is the authoritative conflict-resolution clause between
-OIE-PCS-1.0 and any upstream LICENSE-<UPSTREAM> for the purposes of
-this repository.
-
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright 2026 BabelSpan
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
